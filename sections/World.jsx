@@ -26,6 +26,8 @@ const World = () => (
         textStyles="text-center"
       />
 
+
+
       <motion.div
         variants={fadeIn('up', 'tween', 0.3, 1)}
         className="relative mt-[68px] flex w-full h-[550px]"
@@ -44,6 +46,7 @@ const World = () => (
           <img src="people-03.png" alt="people" className="w-full h-full" />
         </div>
       </motion.div>
+
     </motion.div>
   </section>
 );

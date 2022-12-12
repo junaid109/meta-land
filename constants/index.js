@@ -85,4 +85,4 @@ export const socials = [
     name: 'facebook',
     url: '/facebook.svg',
   },
-];
+];#
