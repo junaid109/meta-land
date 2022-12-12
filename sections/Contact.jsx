@@ -1,4 +1,3 @@
-import React from 'react'
 'use client';
 
 import { useState } from 'react';
@@ -9,7 +8,7 @@ import { exploreWorlds } from '../constants';
 import { staggerContainer } from '../utils/motion';
 import { ExploreCard, TitleText, TypingText } from '../components';
 
-const ContactUs = () => (
+const Contact = () => (
     <section className={`${styles.paddings}`} id="explore">
     <motion.div className={`${styles.innerWidth} mx-auto flex flex-col`}>
         <TypingText title="| The World" textStyles="text-center" />
@@ -29,4 +28,4 @@ const ContactUs = () => (
     </section>
 );
 
-export default ContactUs
+export default Contact;
